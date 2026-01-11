@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td,th {
+            border: 1px solid black;
+              padding: 10px;
+        }
+         thead,tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+<table>
+<caption>Tabela sobre população</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </tr>
+    </thead>
+      
+      <tbody>
+        
+          <tr>
+              <td>São paulo</td>
+              <td class="numero">49.453.534</td>
+          </tr>
+
+          <tr>
+            <td>Angola</td>
+            <td class="numero">38.324.363</td>
+          </tr>
+
+          <tr>
+            <td>Rio de janeiro</td>
+            <td class="numero">213.2435</td>
+          </tr>
+
+          <tr>
+            <td>Luanda</td>
+            <td class="numero">324.123</td>
+          </tr>
+
+          <tr>
+            <td>Malanje</td>
+            <td class="numero">213.987</td>
+          </tr>
+
+      </tbody>
+
+      <tfoot>
+        <tr>
+           <th scope="row">Total de habitantes</th>
+           <td class="numero"><strong>210.147.125</strong></td>
+        </tr>
+      </tfoot>
+
+
+</table>
+
+
+
+
+
+
+
+</body>
+</html>
