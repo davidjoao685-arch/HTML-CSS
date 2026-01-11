@@ -71,7 +71,7 @@ section.imagens {
     background-color: rgb(61, 58, 58);
     color:white;
    background-size: cover;
-   background-attachment: fixed;
+
 }
 
 section.imagens > p {
