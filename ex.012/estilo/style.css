@@ -25,6 +25,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
@@ -57,6 +58,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -64,7 +69,9 @@ section.normal {
 
 section.imagens {
     background-color: rgb(61, 58, 58);
-    color: white;
+    color:white;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 section.imagens > p {
@@ -72,6 +79,18 @@ section.imagens > p {
     display: inline-block;
     padding: 5px;
     
+}
+
+
+section#img01 {
+background-image:url(../imagens/pattern002.png);
+background-position: right center;
+
+
+}
+
+section#img02 {
+background-image: url(../imagens/pattern004.png);
 }
 
 footer { 
