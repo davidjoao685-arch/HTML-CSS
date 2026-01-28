@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>testando o que Aprendi</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+<fieldset>
+
+    <legend>Sexo</legend>
+
+    <input type="radio" name="sexo" id="mas">
+    <label for="mas">masculino</label>
+
+       <input type="radio" name="sexo" id="fem">
+       <label for="fem">feminino</label>
+
+</fieldset>
+<fieldset>
+    <legend>esportes</legend>
+    <input type="checkbox" name="fu" id="fut">
+    <label for="fut">futebool</label><br>
+
+    <input type="checkbox" name="ba" id="bas">
+    <label for="bas">basquetbool</label>
+</fieldset>
+
+
+
+<fieldset>
+    <legend>dados pessoais</legend>
+    <label for="nom">Nome:</label>
+    <input type="text" name="No" id="nom" required placeholder="digite seu nome" autocomplete="name"> <br>
+
+    <label for="ema">E-mail:</label>
+    <input type="email" name="im" id="ema" required autocomplete="email"> <br>
+
+    <label for="sen">senha:</label>
+    <input type="password" name="se" id="sen" required placeholder="digite a senha" autocomplete="current-password" minlength="8" maxlength="9"> <br>
+
+
+    <label for="ms">mes:</label>
+    <input type="month" name="m" id="ms" required>
+
+
+    <p><input type="submit" value="enviar">
+    <input type="reset" value="limpar"></p>
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
