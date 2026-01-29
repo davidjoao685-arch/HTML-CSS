@@ -9,50 +9,37 @@
     <h1>testando o que Aprendi</h1>
 
     <form action="cadastro.php" method="post" autocomplete="on">
-<fieldset>
+     <fieldset>
+        <legend>Sexo</legend>
+          
+          <input type="radio" name="sexo" id="masc" required>
+              <label for="masc">Masculino:</label>
 
-    <legend>Sexo</legend>
+                 <input type="radio" name="sexo" id="fem">
+            <label for="fem">feminino:</label>
+            
+     </fieldset>
 
-    <input type="radio" name="sexo" id="mas">
-    <label for="mas">masculino</label>
+         <fieldset>
+            <legend>Dados pessoais</legend>
 
-       <input type="radio" name="sexo" id="fem">
-       <label for="fem">feminino</label>
+            <label for="inome">Nome:</label>
+            <input type="text" name="non" id="inome"required> <br>
 
-</fieldset>
-<fieldset>
-    <legend>esportes</legend>
-    <input type="checkbox" name="fu" id="fut">
-    <label for="fut">futebool</label><br>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="14">
+         </fieldset>
+         <fieldset>
+            <legend>esportes</legend>
+            <input type="checkbox" name="fu" id="fut" >
+            <label for="fut">futebol</label> <br>
 
-    <input type="checkbox" name="ba" id="bas">
-    <label for="bas">basquetbool</label>
-</fieldset>
+            <input type="checkbox" name="te" id="ten">
+            <label for="ten">tenis</label>
+         </fieldset>
 
-
-
-<fieldset>
-    <legend>dados pessoais</legend>
-    <label for="nom">Nome:</label>
-    <input type="text" name="No" id="nom" required placeholder="digite seu nome" autocomplete="name"> <br>
-
-    <label for="ema">E-mail:</label>
-    <input type="email" name="im" id="ema" required autocomplete="email"> <br>
-
-    <label for="sen">senha:</label>
-    <input type="password" name="se" id="sen" required placeholder="digite a senha" autocomplete="current-password" minlength="8" maxlength="9"> <br>
-
-
-    <label for="ms">mes:</label>
-    <input type="month" name="m" id="ms" required>
-
-
-    <p><input type="submit" value="enviar">
-    <input type="reset" value="limpar"></p>
-
-
-</fieldset>
-
+         <p><input type="submit" value="enviar">
+        <input type="reset" value="limpar"></p>
 
 
 
@@ -63,6 +50,5 @@
 
 
     </form>
-
 </body>
 </html>

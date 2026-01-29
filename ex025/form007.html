@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+
+  <p><label for="est">Estado:</label>
+
+    <select name="esta" id="est">
+
+        <option value="" selected>escolha</option>
+
+       <optgroup label="Sul">
+           <option value="luanda">luanda</option>
+              <option value="">malanje</option>
+            <option value="bl">Bemguela</option>
+             <option value="ui">uila</option>
+       </optgroup>
+       sel
+<optgroup label="norte">
+    
+             <option value="se">sao paulo</option>
+             <option value="vn">viana</option>
+             <option value="ca">cacuaco</option>
+           </select>
+</optgroup>
+  </p>
+
+  <p>
+    <label for="iprof">profissão:</label>
+    <input type="text" name="prof" id="iprof" list="Adi">
+    <datalist id="Adi">
+        <option value="prof">professor</option>
+        <option value="jog">jogador</option>
+        <option value="dev">desenvolvedor</option>
+    </datalist>
+  </p>
+
+
+    <p>
+        <input type="submit" value="enviar">
+         <input type="reset" value="limpar">
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
