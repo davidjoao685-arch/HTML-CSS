@@ -1,48 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   
-</head>
-<body>
+  </head>
+  <body>
     <h1>formularios de e-mail e telefone</h1>
 
-<form action="cadastro.php" method="get" autocomplete="on"> 
+    <form action="cadastro.php" method="get" autocomplete="on">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+          <label for="inom">nome:</label>
+          <input
+            type="text"
+            name="nom"
+            id="inom"
+            required
+            minlength="6"
+            maxlength="18"
+            placeholder="digite seu nome"
+          />
+        </p>
 
-    
-        
-            <fieldset>
-                  <legend>Dados pessoais</legend>
-                <p><label for="inom">nome:</label>
-                    <input type="text" name="nom" id="inom" required minlength="6" maxlength="18" placeholder="digite seu nome">
-                </p>
-                
-                <p>
-                <label for="imail">E-mail</label>
-                <input type="email" name="ima" id="imail" autocomplete="email" required>
-                </p>
-                
-                <p>
-                <label for="tel">telefone:</label>
-                <input type="tel" name="tt" id="tel" autocomplete="tel"  required placeholder="xxx-xxx-xxx">
-                </p>
-              
-            </fieldset>
-        
-    
-<p>
-    <input type="submit" value="enviar">
-    <input type="reset" value="limpar">
-</p>
+        <p>
+          <label for="imail">E-mail</label>
+          <input
+            type="email"
+            name="ima"
+            id="imail"
+            autocomplete="email"
+            required
+          />
+        </p>
 
+        <p>
+          <label for="tel">telefone:</label>
+          <input
+            type="tel"
+            name="tt"
+            id="tel"
+            autocomplete="tel"
+            required
+            placeholder="xxx-xxx-xxx"
+          />
+        </p>
+      </fieldset>
 
+      <section>
+        <p>fddgdhddhd</p>
+        <p>hgdgddhdhhd</p>
+        <p>gdgdshdhdshd</p>
+        <p>fddgdghhdhdh</p>
+        <p>sgsghsssggsgsgsgj</p>
+      </section>
 
-
-</form>
-
-
-
-</body>
+      <p>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="limpar" />
+      </p>
+    </form>
+  </body>
 </html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        background-color: aqua;
+        width: 400px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>testando conhecimento</h1>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+      <p>
+        <label for="mascu">masculino:</label>
+        <input type="radio" name="sexo" id="mascu">
+
+        <label for="ifem">feminino:</label>
+        <input type="radio" name="sexo" id="ifem">
+      </p>
+      <p>
+        <input type="checkbox" name="" id="fute">
+        <label for="fute">futebol</label>
+           <br>
+        <input type="checkbox" name="" id="ten">
+        <label for="ten">tenis</label>
+      </p>
+      <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nom" id="inome" required placeholder="digite seu nome"/>
+      </p>
+      <p>
+        <label for="ema">Email:</label>
+        <input type="email" name="emal" id="ema" required placeholder="e-mail" />
+      </p>
+      <p>
+        <label for="pass">senha:</label>
+        <input type="password" name="pas" id="pass" minlength="8" maxlength="14" required placeholder="digite sua senha"/>
+      </p>
+
+      <p>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="limpar" />
+      </p>
+    </form>
+    </fieldset>
+
+  </body>
+</html>

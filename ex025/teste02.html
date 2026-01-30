@@ -1,54 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>testando o que Aprendi</h1>
 
     <form action="cadastro.php" method="post" autocomplete="on">
-     <fieldset>
+      <fieldset>
         <legend>Sexo</legend>
-          
-          <input type="radio" name="sexo" id="masc" required>
-              <label for="masc">Masculino:</label>
 
-                 <input type="radio" name="sexo" id="fem">
-            <label for="fem">feminino:</label>
-            
-     </fieldset>
+        <input type="radio" name="sexo" id="masc" required />
+        <label for="masc">Masculino:</label>
 
-         <fieldset>
-            <legend>Dados pessoais</legend>
+        <input type="radio" name="sexo" id="fem" />
+        <label for="fem">feminino:</label>
+      </fieldset>
 
-            <label for="inome">Nome:</label>
-            <input type="text" name="non" id="inome"required> <br>
+      <fieldset>
+        <legend>Dados pessoais</legend>
 
-            <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen" required minlength="8" maxlength="14">
-         </fieldset>
-         <fieldset>
-            <legend>esportes</legend>
-            <input type="checkbox" name="fu" id="fut" >
-            <label for="fut">futebol</label> <br>
+        <label for="inome">Nome:</label>
+        <input type="text" name="non" id="inome" required /> <br />
 
-            <input type="checkbox" name="te" id="ten">
-            <label for="ten">tenis</label>
-         </fieldset>
+        <label for="isen">Senha:</label>
+        <input
+          type="password"
+          name="sen"
+          id="isen"
+          required
+          minlength="8"
+          maxlength="14"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>esportes</legend>
+        <input type="checkbox" name="fu" id="fut" />
+        <label for="fut">futebol</label> <br />
 
-         <p><input type="submit" value="enviar">
-        <input type="reset" value="limpar"></p>
+        <input type="checkbox" name="te" id="ten" />
+        <label for="ten">tenis</label>
+      </fieldset>
 
-
-
-
-
-
-
-
-
+      <p>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="limpar" />
+      </p>
     </form>
-</body>
+  </body>
 </html>

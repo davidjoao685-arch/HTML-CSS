@@ -1,33 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Exemplo de formularios </h1>
-   <form action="cadastro.php" method="get">
+  </head>
+  <body>
+    <h1>Exemplo de formularios</h1>
+    <form action="cadastro.php" method="get">
+      <p>
+        <label for="icor">cor</label>
+        <input type="color" name="cor" id="icor" value="#00ff00" />
+      </p>
 
-<p>
-    <label for="icor">cor</label>
-    <input type="color" name="cor" id="icor" value="#00ff00">
-</p>
+      <label for="foto">foto de perfil:</label>
+      <input type="file" name="fot" id="fot" />
+      <p>
+        <label for="ran">Nivel:</label>
+        <input type="range" name="ra" id="ran" />
+      </p>
 
-<label for="foto">foto de perfil:</label>
-<input type="file" name="fot" id="fot">
-
-<p><label for="ran">Nivel:</label>
-    <input type="range" name="ra" id="ran">
-</p>
-
-<p><input type="submit" value="enviar">
-    <input type="reset" value="limpar">
-</p>
-
-
-
-</form>
-
-</body>
+      <p>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="limpar" />
+      </p>
+    </form>
+  </body>
 </html>
