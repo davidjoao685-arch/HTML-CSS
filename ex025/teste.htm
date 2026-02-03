@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>testando</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+      <fieldset>
+        <legend>dados pessoais</legend>
+        <label for="nom">Nome:</label>
+        <input type="text" name="no" id="nom" required /> <br />
+        <br />
+
+        <label for="isobre">Sobrenome:</label>
+        <input type="text" name="sobre" id="isobre" /> <br />
+        <br />
+
+        <label for="email">e-mail:</label>
+        <input type="email" name="" id="email" />
+
+        <p>
+          <input type="submit" value="enviar" />
+          <input type="reset" value="limpar" />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="mas">
+        <label for="mas">masculino</label>
+        <input type="radio" name="sexo" id="fem">
+        <label for="fem">feminino</label>
+      </fieldset>
+      <fieldset>
+        <legend>desporto</legend>
+        <input type="checkbox" name="fu" id="fut">
+        <label for="fut">futebol</label> <br>
+        <input type="checkbox" name="ten" id="teni">
+        <label for="teni">tenis</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
