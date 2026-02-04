@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*todas as restantes medeas*/
+@media print {
+body {
+    background-image: url(../imagens/icon-print.png);
+    
+}
+main {
+    border: 2px solid black;
+}
+
+h1 {
+    color: blue;
+}
+#fone {
+ display: none;
+ margin: auto;
+}
+#tablet {
+    display: none;
+    margin: auto;
+}
+#imprimir {
+    display: block;
+    margin: auto;
+}
+#pc {
+    display: none;
+    margin: auto;
+}
+#tv {
+    display: none;
+}
+}
+@media screen and (min-width:868px) {
+    body {
+        background-image:url(../imagens/back-tablet.jpg);
+    }
+    #fone {
+ display: none;
+ margin: auto;
+}
+#tablet {
+    display: block;
+}
+#imprimir {
+    display: none;
+}
+#pc {
+    display: none;
+}
+#tv {
+    display: none;
+}
+
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image:url(../imagens/back-pc.jpg);
+    }
+    #fone {
+ display: none;
+ margin: auto;
+}
+#tablet {
+    display: none;
+}
+#imprimir {
+    display: none;
+}
+#pc {
+    display: block;
+}
+#tv {
+    display: none;
+}
+
+}
+

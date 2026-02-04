@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*versao bobil ferst*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+ 
+ height: 100vh;
+}
+
+body {
+    background: url(../imagens/back-phone.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+main {
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 90vw;
+    margin: auto;
+    margin-top:20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+#fone {
+ display: block;
+ margin: auto;
+}
+#tablet {
+    display: none;
+    margin: auto;
+}
+#imprimir {
+    display: none;
+}
+#pc {
+    display: none;
+    margin: auto;
+}
+#tv {
+    display: none;
+}
+
