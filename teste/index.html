@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width:400px;
+            margin: auto;
+            margin-top:300px;
+            background-color: rgb(88, 88, 122);
+            border-radius: 20px;
+        }
+        p {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+        <div>
+            <main>
+                <fieldset>
+                    <p>login</p>
+
+                      <form action="cadastro.php" autocomplete="on">
+                          <label for="nom">Nome:</label>
+                          <input type="text" name="no" id="nom" required> <br>
+                          <br>
+                          <label for="imail">E-mail:</label>
+                          <input type="email" name="ima" id="imail" required>
+                          <br>
+                          <br>
+                          <label for="sen">Senha:</label>
+                          <input type="password" name="isen" id="sen" minlength="8" maxlength="14">
+
+                          <p class="david"><input type="submit" value="enviar">
+                        <input type="reset" value="limpar"></p>
+                          
+                      </form>
+                </fieldset>
+            </main>
+        </div>
+</body>
+</html>

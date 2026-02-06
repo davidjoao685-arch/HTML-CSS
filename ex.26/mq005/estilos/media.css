@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    article > p {
+        color: aqua;
+    }
+
+    article>h2{
+        color: blue;
+    }
+   main {
+    background-color: blue;
+   }
+
+   menu>ul>li{
+    display: inline-block;
+    border-radius: 10px;
+   }
+}
