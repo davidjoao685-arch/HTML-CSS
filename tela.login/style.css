@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+fieldset {
+    background: url(1759250069974.jpg) no-repeat;
+    color: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 2em;
+    margin-top: 100px;
+}
+ html,body {
+    background-color: black;
+ }
+header>h1 {
+    color: white;
+    text-align: center;
+    background-color: grey;
+
+}
